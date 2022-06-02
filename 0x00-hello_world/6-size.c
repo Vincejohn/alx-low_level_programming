@@ -1,9 +1,9 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point of the code
  *
- * Description: A C program that prints the size of various types
+ * Description: Writing a C program that prints the size of various types on the computer
  *
  * Return: Always return 0 (Success)
  */
@@ -12,7 +12,7 @@ int main(void)
 	char acharacter;
 	int ainteger;
 	long along;
-	long long alongalong;
+	long long alonglong;
 	float afloat;
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(acharacter));
